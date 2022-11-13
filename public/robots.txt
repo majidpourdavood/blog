@@ -1,0 +1,14 @@
+User-agent: *
+
+Disallow: /search
+Disallow: */tour-link
+Disallow: */blog-link
+Disallow: */place-link
+Disallow: /loginIntended
+Disallow: /registerIntended
+Disallow: /getLocation/*
+Disallow: /get-ajax-way-migrate
+Disallow: /ratings
+
+
+Sitemap: https://www.yaremohajer.ir/sitemap.xml

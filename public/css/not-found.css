@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'IRANSans';
+    src: url('/fonts/IRANSans.woff?-wwn5ej') format('woff'),
+    url('/fonts/IRANSans.ttf?-wwn5ej') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 20px;
+    background-color: rgb(0 70 249/75%);
+  font-family: "IRANSans";
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  padding-top: 125px;
+}
+.box div {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color:  rgb(0 70 249/75%);
+  background-color: #fff;
+  font-size: 280%;
+  direction: ltr;
+  text-transform: capitalize;
+  animation: moving 8s linear infinite;
+  -webkit-animation: moving 8s linear infinite;
+  -moz-animation: moving 8s linear infinite;
+  -o-animation: moving 8s linear infinite;
+  transform-origin: 50% -400%;
+  -webkittransform-origin: 50% -400%;
+  -moz-transform-origin: 50% -400%;
+  -o-transform-origin: 50% -400%;
+}
+.box div:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 48%;
+  top: -125px;
+}
+.box div:after {
+  content: "";
+  width: 3px;
+  height: 100px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  left: 52%;
+  top: -100px;
+}
+.box p {
+  margin: 15px 0 30px;
+  font-weight: 700;
+  color: #fff;
+  width: 300px;
+}
+.box p span {
+  display: block;
+  font-size: 300%;
+}
+.box a {
+  color: #fff;
+    background-color: #4074fa;
+  border: 3px solid #fff;
+  line-height: 30px;
+  width: 200px;
+  display: inline-block;
+  text-decoration: none;
+}
+.box a:hover {
+  background-color: #fff;
+  color:  rgb(0 70 249/75%);
+}
+
+@keyframes moving {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+@-webkit-keyframes moving {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+@-moz-keyframes moving {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+@-o-keyframes moving {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+
+/*# sourceMappingURL=not-found.css.map */

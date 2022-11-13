@@ -1,0 +1,361 @@
+
+
+.background_login_register {
+    position: relative;
+}
+
+.background_login_register {
+    /*background: url(/images/33.jpg); */
+    background-size: 100%, 100%;
+    height: 100%;
+    width: 100%;
+    /* filter: grayscale(100%); */
+    /* -webkit-filter: blur(1px); */
+    /* filter: blur(1px); */
+    /*background-color: #bfbfbf;*/
+    background-color: #d3e6ff;
+
+}
+
+.overly_body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    opacity: .6;
+    top: 0;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+html,body{
+    background-color: #d3e6ff;
+
+}
+.content_login_register {
+    /*position: fixed;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*width: 100%;*/
+    /*transform: translate(-50%, -50%);*/
+    background-size: 100%, 100%;
+     height: 100%;
+     width: 100%;
+    /*padding:  3rem auto;*/
+    /* filter: grayscale(100%); */
+    /* -webkit-filter: blur(1px); */
+    /* filter: blur(1px); */
+    /* background-color: #bfbfbf; */
+    background-color: #d3e6ff;
+}
+.login_register_page{
+    padding: 4rem 0;
+
+}
+.login_register_page .title_login_register_page {
+    background: transparent;
+    padding: 1rem;
+    color: #1d4171;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.login_register_page .card-body {
+    padding: 0;
+}
+
+.login_register_page .card {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 6px #c1c1c1;
+    max-width: 26rem;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    /*min-height: 30rem;*/
+
+}
+
+.form_login_register {
+    padding: 1rem 2rem;
+    /* display: flex; */
+    height: 100%;
+    /*margin: 1rem 1rem;*/
+}
+
+.login_register_page .form-control {
+    padding: .6rem 2.3rem;
+    border-radius: 2rem;
+    color: #33582d;
+    height: auto;
+}
+
+.login_register_page i {
+    position: absolute;
+    right: .8rem;
+    top: .73rem;
+    color: #33582d;
+}
+
+.login_register_page .form-group {
+    margin-bottom: 1rem !important;
+}
+
+.login_register_page .btn_login_register {
+    width: 100%;
+    text-align: center;
+    background-color: #1d4171;
+    color: #fff;
+    margin: 1rem 0;
+    border-radius: 2rem;
+}
+
+.custom-control {
+    margin: .75rem 1.5rem .3rem 1.5rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.custom-control-label {
+    line-height: 1.7rem;
+    padding-right: .5rem;
+}
+
+.custom-control-label::before {
+    right: -1.5rem;
+    left: unset;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.custom-control-label::after {
+    right: -1.5rem;
+    left: unset;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.custom-control:hover label {
+    color: #1d4171;
+    cursor: pointer;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #1d4171;
+    background-color: #1d4171;
+}
+
+.register_link_page_login {
+    color: #1d4171;
+}
+
+/* start login_page css*/
+.login_register_page .logo_login_register {
+    max-width: 11rem;
+    margin-top: 2rem;
+}
+
+/* end login_register_page css*/
+.style_alert {
+    margin: 0;
+    padding-right: 0;
+}
+
+.style_alert .list_unstyled_mesage {
+    margin: 0;
+    padding: 0 1rem 0 0;
+}
+
+.style_alert .close {
+    left: 0;
+    right: unset;
+}
+
+#verify_form {
+    display: none;
+}
+
+.p_verify_page {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: .86rem;
+    line-height: 1.6rem;
+    color: #000;
+}
+
+.form_login_register .form-row {
+    margin-bottom: .7rem;
+}
+
+.timer_send_code {
+    margin: 1.5rem 0 1rem;
+    color: #999;
+}
+
+.btn_send_code {
+    color: #fff;
+    background-color: #1d4171;
+    border-color: #1d4171;
+    width: 6rem;
+}
+
+.request_taeed {
+    padding: 1rem;
+}
+
+.request_taeed > * {
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.p_no_recived_code {
+    color: #1d4171;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.p_no_recived_code > span {
+    color: #888;
+}
+
+#message-error {
+    /*color: #f80000;*/
+    margin-bottom: 1rem;
+    display: block;
+}
+
+#time {
+    width: 5rem;
+}
+
+.text_error_yarjoo, .text_error_yarjoo > strong {
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+    line-height: 1.5rem;
+    padding: .8rem;
+
+}
+
+.form_login_register.verify {
+    padding: 0;
+}
+
+.text_error_yarjoo {
+    color: #ff0050 !important;
+    display: block;
+    font-size: .9rem;
+    padding: .9rem .9rem 0 .9rem;
+    text-align: center;
+    width: 100%;
+}
+
+.form_login_register.verify .form-control {
+    text-align: center;
+}
+
+.btn_send_code:hover,
+.btn_send_code:focus {
+    color: #fff;
+    background-color: #ff0050;
+    border-color: #ff0050;
+}
+
+.login_register_page.verify .form-control {
+    padding: .5rem;
+    border-radius: 2rem;
+    color: #6f6d6d;
+    text-align: center;
+}
+
+.login_register_page.verify .form-control {
+    padding: .5rem;
+    border-radius: 2rem;
+    color: #33582d;
+    height: auto;
+    text-align: center;
+}
+
+.request_taeed i {
+    position: static;
+    color: #5d5d5d;
+    font-size: .8rem;
+}
+
+.btn_request_taeed {
+    background-color: transparent;
+    color: #1d4171;
+    padding: .5rem .3rem;
+    vertical-align: baseline;
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.login_register_page.register .card {
+    max-width: 30rem;
+}
+
+#verify_form {
+    position: relative;
+}
+
+#verify_form .fa-reply {
+    left: .6rem;
+    bottom: .9rem;
+    font-size: 1.4rem;
+    right: unset;
+    top: unset;
+    background-color: #bed5f5;
+    cursor: pointer;
+    padding: .6rem;
+    color: #1d4171;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#register_form_full {
+    display: none;
+}
+
+.my-error-class {
+    color: #FF0000;
+    border-color: #ff1c00 !important;
+}
+
+.my-valid-class {
+    color: #00CC00;
+    border-color: #00CC00 !important;
+}
+
+label.my-error-class {
+    margin: .2rem 0;
+}
+
+.btnResetPassword {
+    color: #fff;
+    background-color: #010101;
+    border-color: #010101;
+}
+
+.btnResetPassword:hover {
+    color: #fff;
+    background-color: #1d4171;
+    border-color: #1d4171;
+}
+
+.login_register_page .btn_login_register:hover{
+    background-color: #010101;
+    color: #fff;
+}
+
+.p-password-reset{
+    padding: .4rem 2rem 0 2rem;
+    line-height: 1.8rem;
+    color: #1d4171;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+
+}
