@@ -1,4 +1,4 @@
-## About Laravel
+# Blog with multilingual CMS
 
 Import the database file.
 Then in the terminal enter.
