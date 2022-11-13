@@ -1,7 +1,8 @@
 # Blog with multilingual CMS
 
-Import the database file.
-Then in the terminal enter.
+###1 create table blog
+###2 Import the database file.  blog.sql is root folder
+###3 Then in the terminal enter.
 
 ### composer update
 ### php artisan serve
